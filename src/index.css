@@ -11,11 +11,11 @@ body {
 }
 
 .logo-container {
-  width: 120px; /* Adjust the width as needed */
+  width: 120px; 
 }
 
 .logo {
-  width: 100%; /* Adjust the size of the logo image */
+  width: 100%; 
 }
 
 .navbar {
@@ -52,21 +52,58 @@ body {
 
 /* Footer */
 
-.footer {
-  background-color: #000;
-  color: #fff;
-  padding: 20px;
+footer {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
   text-align: center;
+  padding: 3rem 0;
 }
 
-.footer-container {
+.contact-section {
+  background-color: #2c3e50;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-top: 2rem
+}
+
+.contact-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.contact-links {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin-right: 3rem;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
 }
 
 .footer-container p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+  color: white;
+  margin: 0;
 }
+
+.copyright {
+  background-color: black;
+  padding: 1rem;
+  font-size: 12px;
+
+}
+.contact-section h2 {
+  padding-bottom: 3rem;
+  font-size: 35px;
+}
+
