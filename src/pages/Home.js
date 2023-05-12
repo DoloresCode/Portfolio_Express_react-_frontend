@@ -1,38 +1,24 @@
-import { useState, useEffect } from "react";
+import React from 'react';
+import profilePicture from '../logo/Dolores_Crazover-profile-picture.png';
 
-function Home () {
-    // I want to start with grabbing all my specials but when I don't have them, I'm going to say I have a null value for the starting point
-    const [specials, setSpecials] = useState(null);
-
-    async function fetchSpecials() {
-        try {
-            // I want to go and grab all my specials from the URL I have that is my backend API
-            let mySpecials = await fetch('https://dolores-crazover-swe-portfolio-satk.onrender.com');
-            // I want to parse the string (as again, information tends to be sent as a string) and turn it into json
-            mySpecials = await mySpecials.json();
-            // console.log(mySpecials);
-            // Update the value of specials to be mySpecials that is now the API info parsed into JSON.
-            setSpecials(mySpecials);
-        } catch(err) {
-            console.log(err);
-        }
-    }
-
-    useEffect(() => {
-        fetchSpecials();
-    }, [])
-
-    return(
-        <>
-            {specials ? specials.map((special, idx) => {
-                return (
-                    <div key={idx}>
-                        <h2>{special.name}</h2>
-                    </div>
-                )
-            }) : <h2>Loading...</h2>} 
-        </>
-    )
+function Home() {
+  return (
+    <div className="home-container">
+      <div className="home-content">
+        <p className="home-greeting">Hi, my name is</p>
+        <h1 className="home-name">Dolores Crazover</h1>
+        <h3 className="home-subtitle">And I am a <span className="home-role">Full-Stack Software Engineer</span></h3>
+        <h3 className="home-description">I love learning new things, embracing challenges, working in teams, and building impactful solutions that improve lives and shape the world.</h3>
+        <div className="home-buttons">
+          <button className="home-button">Contact</button>
+          <button className="home-button">Portfolio</button>
+        </div>
+      </div>
+      <div className="home-image-container">
+        <img className="home-image" src={profilePicture} alt="Profile" />
+      </div>
+    </div>
+  );
 }
 
 export default Home;

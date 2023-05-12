@@ -11,7 +11,7 @@ body {
 }
 
 .logo-container {
-  width: 120px; 
+  width: 140px; 
 }
 
 .logo {
@@ -232,4 +232,99 @@ footer {
   text-align: center;
   margin-bottom: 2rem;
   text-decoration: underline;
+}
+
+/* Homepage */
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-content {
+  flex: 1;
+  padding-right: 2rem;
+  margin-left: 2rem;
+  margin-top:2rem;
+}
+
+.home-greeting {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.home-name {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.home-subtitle {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.home-role {
+  color: #bf2026;
+}
+
+.home-hr {
+  border: none;
+  border-top: 2px solid #bf2026;
+  margin: 2rem 0;
+}
+
+.home-description {
+  color: #000;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.home-buttons {
+  display: flex;
+}
+
+.home-button {
+  background-color: #bf2026;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #fff;
+  color: #bf2026;
+  border: 1px solid #bf2026;
+}
+
+.home-image-container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.home-image:hover {
+  transform: scale(1.05);
 }
