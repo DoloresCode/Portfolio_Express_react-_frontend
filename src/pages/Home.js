@@ -12,7 +12,7 @@ function Home() {
         <h3 className="home-description">I love learning new things, embracing challenges, working in teams, and building impactful solutions that improve lives and shape the world.</h3>
         <div className="home-buttons">
         <Link to="/contact" className="home-button">Contact</Link>
-          <Link to="/projects" className="home-button">Portfolio</Link>
+          <Link to="/projects" className="home-button">Projects</Link>
         </div>
       </div>
       <div className="home-image-container">
