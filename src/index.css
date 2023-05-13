@@ -388,3 +388,44 @@ margin-top: 2rem;
 .home-button:hover {
   background-color: #1c2833;
 }
+
+/* About Page */
+
+.headshot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.headshot-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Projects Page */
+
+.project-card {
+  display: inline-block;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.image-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
