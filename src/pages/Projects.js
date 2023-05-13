@@ -12,12 +12,14 @@ function Projects(props) {
           <div className="image-container">
             <img src={project.image} alt={project.title || ""} />
           </div>
-          <a href={project.git} className="button-link">
-            <button>Github</button>
-          </a>
-          <a href={project.live} className="button-link">
-            <button>Live Site</button>
-          </a>
+          <div className="buttons-container">
+            <a href={project.git} className="button-link">
+              <button className="github-button">Github</button>
+            </a>
+            <a href={project.live} className="button-link">
+              <button className="live-site-button">Live Site</button>
+            </a>
+          </div>
         </div>
       ))}
     </div>
