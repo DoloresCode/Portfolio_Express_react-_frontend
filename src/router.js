@@ -1,16 +1,12 @@
-import {
-  createRoutesFromElements,
-  createBrowserRouter,
-  Route,
-} from "react-router-dom"
-import App from "./App"
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Projects from "./pages/Projects"
-import Skills from "./pages/Skills"
-import Resume from "./pages/Resume"
-import Contact from "./pages/Contact"
-import Thanks from "./pages/Thanks"
+import { createRoutesFromElements,createBrowserRouter, Route } from "react-router-dom";
+import App from "./App";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Skills from "./pages/Skills";
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
+import Thanks from "./pages/Thanks";
 import { aboutLoader, projectsLoader } from "./loaders";
 
 const router = createBrowserRouter(

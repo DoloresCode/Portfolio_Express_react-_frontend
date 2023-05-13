@@ -1,10 +1,14 @@
 import React from 'react';
+import profilePicture from '../logo/Dolores_Crazover_Contact_Page.png';
 
 function Contact() {
   return (
     <div className="contact-container">
-      <h2 className="contact-title">Let's talk!</h2>
+      <div className="profile-image-contact">
+        <img src={profilePicture} alt="Dolores Crazover in front of her code" />
+      </div>
       <form className="contact-form">
+      <h2 className="contact-title">Let's talk!</h2>
         <div className="form-group">
           <div className="name-group">
             <label>
@@ -56,7 +60,7 @@ function Contact() {
             placeholder="Message"
           ></textarea>
         </div>
-        <button className="send-button">Submit</button>
+        <button className="submit-button">Submit</button>
       </form>
     </div>
   );
