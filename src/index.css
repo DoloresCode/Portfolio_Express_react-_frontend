@@ -237,6 +237,7 @@ footer {
 /* Homepage */
 
 .home-container {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -283,11 +284,14 @@ footer {
 .home-description {
   color: #000;
   font-size: 1.2rem;
+  font-weight: normal;
   margin-bottom: 2rem;
+  padding-right: 12rem;
 }
 
 .home-buttons {
   display: flex;
+  
 }
 
 .home-button {
@@ -300,6 +304,7 @@ footer {
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none; 
 }
 
 .home-button:hover {
@@ -309,12 +314,15 @@ footer {
 }
 
 .home-image-container {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   overflow: hidden;
   border-radius: 50%;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem; 
 }
 
 .home-image {
@@ -327,4 +335,47 @@ footer {
 
 .home-image:hover {
   transform: scale(1.05);
+}
+
+/* Contact Page Thanks */
+
+.thanks-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 90vh;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-left: 40%;
+}
+
+.thanks-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.thanks-message {
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #2c3e50;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.home-button:hover {
+  background-color: #1c2833;
 }
