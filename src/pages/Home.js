@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import profilePicture from '../logo/Dolores_Crazover-profile-picture.png';
+import profilePicture from '../Pictures/Dolores_Crazover-profile-picture.png';
 
 function Home() {
   return (

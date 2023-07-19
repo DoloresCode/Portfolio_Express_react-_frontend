@@ -25,6 +25,7 @@ function Skills() {
           <li>Git</li>
           <li>Github</li>
           <li>Heroku</li>
+          <li>Render</li>
         </ul>
       </section>
       <section className="databases">
@@ -33,6 +34,7 @@ function Skills() {
           <li>MongoDB</li>
           <li>Mongoose</li>
           <li>PostgreSQL</li>
+          <li>Neon</li>
         </ul>
       </section>
       <section className="apps">
@@ -50,8 +52,6 @@ function Skills() {
         <h3>Other</h3>
         <ul>
           <li>Full-Stack Development</li>
-          <li>Front-End Development</li>
-          <li>Back-End Development</li>
           <li>CSS Flexbox</li>
           <li>Data Structures</li>
           <li>Document Object Model (DOM)</li>

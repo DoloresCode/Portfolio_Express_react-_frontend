@@ -32,11 +32,6 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/resume">
-              <div>RESUME</div>
-            </Link>
-          </li>
-          <li>
             <Link to="/contact">
               <div>CONTACT</div>
             </Link>
