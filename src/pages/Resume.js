@@ -3,12 +3,12 @@ function Resume() {
     <div className="resume-container">
       <section className="resume-section">
         <h2 className="resume-title">My Resume</h2>
-        <a href="/DoloresCrazover_Resume.pdf" download> Download My Resume</a>
+        <a href="Pictures/Dolores_Crazover_Resume.pdf" download> Download My Resume</a>
       </section>
       
       <section className="resume-section">
         <h3 className="resume-subtitle">SUMMARY</h3>
-        <p className="resume-description">I am a Full Stack Software Engineer who leverages expertise in STEM, entrepreneurship, and community building (DEI) to design customized solutions that strive to drive innovation, optimize processes, and enhance lives. I utilize skills in HTML5, CSS, Javascript, Node.js, Express.js, and React to create impactful change in the world.</p>
+        <p className="resume-description">I am a Full Stack Software Engineer who leverages expertise in STEM, entrepreneurship, and community building to design customized solutions that strive to drive innovation, optimize processes, and enhance lives. I utilize skills in HTML5, CSS, Javascript, Node.js, Express.js, and React to create impactful change in the world.</p>
       </section>
       
       <section className="resume-section">
