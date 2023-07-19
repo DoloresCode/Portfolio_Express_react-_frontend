@@ -9,7 +9,7 @@ function About(props) {
       <h3>{about.email}</h3>
       <p>{about.bio}</p>
       {about.headshot && (
-         <div className="headshot-container">
+        <div className="headshot-container">
         <img
             src={about.headshot}
             alt="Headshot Dolores Crazover Full stack software Engineer"

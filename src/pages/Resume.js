@@ -3,7 +3,7 @@ function Resume() {
     <div className="resume-container">
       <section className="resume-section">
         <h2 className="resume-title">My Resume</h2>
-        <a href="/path/to/resume.pdf" download className="resume-download">Download My Resume</a>
+        <a href="/DoloresCrazover_Resume.pdf" download> Download My Resume</a>
       </section>
       
       <section className="resume-section">

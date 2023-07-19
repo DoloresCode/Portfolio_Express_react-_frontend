@@ -11,7 +11,7 @@ function Home() {
         <h3 className="home-subtitle">And I am a <span className="home-role">Full-Stack Software Engineer</span></h3>
         <h3 className="home-description">I love learning new things, embracing challenges, working in teams, and building impactful solutions that improve lives and shape the world.</h3>
         <div className="home-buttons">
-        <Link to="/contact" className="home-button">Contact</Link>
+          <Link to="/contact" className="home-button">Contact</Link>
           <Link to="/projects" className="home-button">Projects</Link>
         </div>
       </div>
