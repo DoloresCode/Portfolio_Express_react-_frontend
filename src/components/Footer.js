@@ -10,8 +10,8 @@ function Footer(props) {
           <div className="contact-links">
             <a href="https://github.com/DoloresCode" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/dolores-crazover/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="/resume">Resume</a>
-            <a href="mailto:dcrazover@crazover.com">Email</a>
+            <a href="Pictures/Dolores_Crazover_Resume.pdf" download>Resume</a>
+            <a href="mailto:dcrazover@gmail.com">Email</a>
             <a href="/contact">Contact</a>
           </div>
         </div>
