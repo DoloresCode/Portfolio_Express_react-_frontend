@@ -1,5 +1,5 @@
 // BASE URL OF OUR DEPLOYED API
-const URL = "https://dolorescrazover.com/"
+const URL = "https://dolores-crazover-swe-portfolio-satk.onrender.com"
 
 export const projectsLoader = async () => {
     const response = await fetch(URL + "/projects")
