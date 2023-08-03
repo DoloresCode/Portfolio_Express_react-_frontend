@@ -1,8 +1,9 @@
 // BASE URL OF OUR DEPLOYED API
-const URL = "http://localhost:4000"
+const URL = "https://dolores-crazover-swe-portfolio-satk.onrender.com"
 
+//to get the URL of the portfolio website for the development
+// const URL = "http://localhost:4000"
 
-// const URL = "https://dolores-crazover-swe-portfolio-satk.onrender.com"
 
 export const projectsLoader = async () => {
     const response = await fetch(URL + "/projects")
