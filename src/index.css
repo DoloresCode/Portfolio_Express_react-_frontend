@@ -155,7 +155,7 @@ footer {
   }
 
   .footer-container {
-    width: 110%;
+    width: 100%;
   }
 }
 
@@ -240,8 +240,9 @@ footer {
   .contact-page-details {
     order: 1;
     font-size: 0.8em;  
-    align-self: center;  
-    text-align: center; 
+    /* align-self: center;  
+    text-align: center;  */
+    margin-left: 2rem;
   }
 
   .profile-image-contact-page {
@@ -327,6 +328,34 @@ footer {
   margin-bottom: 2rem;
   text-decoration: underline;
 }
+
+
+@media (max-width: 768px) {
+
+  .skills-container {
+    width: 100%;
+    }
+  .skills-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .skills-container section {
+    flex-basis: auto;
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  .skills-container h3 {
+    font-size: 1.2rem;
+  }
+
+  .skills-container li {
+    font-size: 0.8rem;
+  }
+}
+
+
 
 /* Homepage */
 
