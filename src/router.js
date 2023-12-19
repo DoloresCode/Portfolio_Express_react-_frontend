@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 import { aboutLoader, projectsLoader } from "./loaders";
 
 const router = createBrowserRouter(
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
       <Route path="/projects" element={<Projects />} loader={projectsLoader}/>
       <Route path="/skills" element={<Skills />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<NotFound />} /> 
     </Route>
   )
 )
