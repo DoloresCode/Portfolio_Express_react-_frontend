@@ -11,7 +11,7 @@ function About(props) {
       <p>{about.bioSecond}</p>
       <div className="container-aboutbtn-cv-email"> 
         <a href="mailto:dcrazover@gmail.com" className="contact-button">Contact Me</a>
-        <a href="Pictures/Dolores_Crazover_Resume.pdf" download className="contact-button-resume">Resume</a>
+        <a href="Pictures/Dolores_Crazover_Resume_1223.pdf" download className="contact-button-resume">Resume</a>
 
       </div>
       {about.headshot && (
